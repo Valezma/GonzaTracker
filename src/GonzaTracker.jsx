@@ -133,4 +133,17 @@ export default function GonzaTracker() {
                   <td className="p-2">{g.contrato}</td>
                   <td className="p-2">{g.responsable}</td>
                   <td className="p-2">{g.estado}</td>
-                  <td className="p-2
+                                    <td className="p-2">{g.prioridad}</td>
+                  <td className="p-2">
+                    {g.historial[g.historial.length - 1]?.fecha}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
+
