@@ -1,1 +1,5 @@
-<REPLACE_WITH_LATEST_APP_CODE>
+import GonzaTracker from "./GonzaTracker";
+
+export default function App() {
+  return <GonzaTracker />;
+}
